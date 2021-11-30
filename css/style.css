@@ -36,6 +36,19 @@ section {
   padding: 5rem 9%;
 }
 
+.heading {
+  text-align: center;
+  font-size: 3vw;
+  color: #fff;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: crimson;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -158,6 +171,92 @@ section {
   line-height: 2;
 }
 
+.about .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .row .info-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about .row .info-container h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.about .row .info-container .box-container {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .row .info-container .box-container .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+}
+
+.about .row .info-container .box-container .box h3 {
+  font-size: 1.7rem;
+  color: #fff;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.about .row .info-container .box-container .box h3 span {
+  color: #aaa;
+  font-weight: lighter;
+}
+
+.about .row .count-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .row .count-container .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  padding: 3rem 4rem;
+  border-radius: 0.5rem;
+  background: #1a1a1a;
+  -webkit-box-shadow: 0.5 rgba(0, 0, 0, 0.7);
+          box-shadow: 0.5 rgba(0, 0, 0, 0.7);
+}
+
+.about .row .count-container .box h3 {
+  font-size: 5rem;
+  color: crimson;
+}
+
+.about .row .count-container .box p {
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -168,6 +267,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  .heading {
+    font-size: 12vw;
+  }
   .navbar a i {
     padding: 0;
   }
