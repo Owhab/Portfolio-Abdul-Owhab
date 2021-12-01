@@ -80,16 +80,16 @@ section {
 
 .navbar {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   z-index: 1000;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .navbar a {
@@ -130,6 +130,7 @@ section {
       flex-wrap: wrap;
   gap: 4rem;
   min-height: calc(100vh- 6.5rem);
+  margin-top: 5rem;
 }
 
 .home .image {
@@ -341,6 +342,13 @@ section {
   color: #fff;
   font-weight: normal;
   padding-top: 3rem;
+}
+
+.education .box-container .box h2 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: #fff;
+  font-weight: normal;
 }
 
 .education .box-container .box p {
@@ -689,7 +697,7 @@ section {
 
 @media (max-width: 768px) {
   .heading {
-    font-size: 12vw;
+    font-size: 7vw;
   }
   .navbar a i {
     padding: 0;

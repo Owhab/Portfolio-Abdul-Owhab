@@ -81,12 +81,12 @@ section {
 }
 .navbar {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   display: flex;
   z-index: 1000;
-  align-items: flex-end;
+  align-items: flex-start;
   a {
     padding: 2rem;
     font-size: 2rem;
@@ -115,6 +115,7 @@ section {
   flex-wrap: wrap;
   gap: 4rem;
   min-height: calc(100vh- 6.5rem);
+  margin-top: 5rem;
   .image {
     flex: 1 1 42rem;
     text-align: center;
@@ -273,6 +274,13 @@ section {
         font-weight: normal;
         padding-top: 3rem;
       }
+      h2 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        color: $white;
+        font-weight: normal;
+      }
+
       p {
         font-size: 1.5rem;
         color: $light-color;
@@ -558,7 +566,7 @@ section {
 }
 @media (max-width: 768px) {
   .heading {
-    font-size: 12vw;
+    font-size: 7vw;
   }
   .navbar {
     a {
