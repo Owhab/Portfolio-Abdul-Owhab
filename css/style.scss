@@ -100,7 +100,6 @@ section {
     }
     &:hover {
       background: $crimson;
-      padding-bottom: 6rem;
       transition: 0.2s linear;
       i {
         color: $white;
@@ -328,6 +327,13 @@ section {
         color: $white;
         font-weight: normal;
         padding-top: 3rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        color: $white;
+        font-weight: normal;
       }
       p {
         font-size: 1.5rem;

@@ -110,7 +110,6 @@ section {
 
 .navbar a:hover {
   background: crimson;
-  padding-bottom: 6rem;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
@@ -405,6 +404,13 @@ section {
   color: #fff;
   font-weight: normal;
   padding-top: 3rem;
+}
+
+.training .box-container .box h2 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  color: #fff;
+  font-weight: normal;
 }
 
 .training .box-container .box p {
